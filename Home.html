@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Physics Articles</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    .container {
+      width: 90%;
+      max-width: 800px;
+      margin: 20px auto;
+    }
+    .card {
+      background-color: #fff;
+      padding: 15px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    .card h3 {
+      font-size: 18px;
+      margin: 0 0 10px;
+    }
+    .card p {
+      margin: 0;
+      color: #555;
+    }
+    .meta {
+      font-size: 14px;
+      color: #999;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+    }
+    .meta span {
+      display: flex;
+      align-items: center;
+    }
+    .meta img {
+      width: 16px;
+      height: 16px;
+      margin-right: 5px;
+    }
+    /* Flexbox styles for multiple cards in the third row */
+    .row {
+      display: flex;
+      gap: 15px;
+    }
+    .row .card {
+      flex: 1;
+    }
+  </style>
+  <script>
+    // Function to navigate to the specified URL when a card is clicked
+    function navigateTo(location) {
+      window.location.href = location;
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="card" onclick="navigateTo('go:PH')">
+      <img src="https://via.placeholder.com/800x400" alt="Image representing the universe">
+      <h3>The universe could vanish at any moment – why hasn’t it?</h3>
+      <div class="meta">
+        <span>Physics</span>
+        <span>10m read</span>
+      </div>
+    </div>
+    <div class="card" onclick="navigateTo('CH')">
+      <h3>Quantum time crystals could be used to store energy</h3>
+      <div class="meta">
+        <span>Physics</span>
+        <span>2m read</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="card">
+        <h3>Bizarre test shows light can actually cast its own shadow</h3>
+        <div class="meta">
+          <span>Physics</span>
+          <span>1m read</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>You can’t put a price on the sense of awe particle physics inspires</h3>
+        <div class="meta">
+          <span>Physics</span>
+          <span>4m read</span>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Quantum time crystals could be used to store energy</h3>
+      <div class="meta">
+        <span>Physics</span>
+        <span>2m read</span>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Quantum time crystals could be used to store energy</h3>
+      <div class="meta">
+        <span>Physics</span>
+        <span>2m read</span>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Quantum time crystals could be used to store energy</h3>
+      <div class="meta">
+        <span>Physics</span>
+        <span>2m read</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="card">
+        <h3>Bizarre test shows light can actually cast its own shadow</h3>
+        <div class="meta">
+          <span>Physics</span>
+          <span>1m read</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>You can’t put a price on the sense of awe particle physics inspires</h3>
+        <div class="meta">
+          <span>Physics</span>
+          <span>4m read</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
